@@ -1,0 +1,37 @@
+.con{
+    width: 200px;
+    height: 200px;
+    /* border: black solid 1px; */
+   position: absolute;
+   top: 95px;
+   background-color: green
+}
+.circle{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    /* border: black solid 0px; */
+    /* position: absolute; */
+    /* top: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background-color: white;
+}
+.subcircle{
+    width: 100px;
+    /* border: black solid 1px; */
+    height: 100px;
+    border-radius: 50%;
+    background-color: orange;
+}
+body{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    /* justify-content:center; */
+    align-items: center;
+    flex-direction: column;
+    
+}
